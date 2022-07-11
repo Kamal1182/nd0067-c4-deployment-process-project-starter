@@ -60,8 +60,6 @@ jobs:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: |
-            echo "PWD" 
-            echo $(PWD)
             npm run deploy
             
 workflows:
