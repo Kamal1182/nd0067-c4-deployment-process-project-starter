@@ -60,6 +60,9 @@ jobs:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: |
+            eb list
+            eb use Udagram
+            eb status
             npm run deploy
             
 workflows:
