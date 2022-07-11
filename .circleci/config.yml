@@ -44,6 +44,8 @@ jobs:
       - run:
           name: API Build
           command: |
+            echo "PWD" 
+            echo $(PWD)
             npm run api:build
   # deploy step will run only after manual approval
   deploy:
