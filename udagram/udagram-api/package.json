@@ -12,7 +12,8 @@
     "dev": "npx ts-node-dev --respawn --transpile-only ./src/server.ts",
     "prod": "npx tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
-    "deploy": "eb use Udagram && eb deploy",
+    "ebsetup": "eb init --platform 'Node.js 16 running on 64bit Amazon Linux 2' --region us-east-1 udagram",
+    "deploy": "npm run ebsetup && eb use Udagram && eb deploy Udagram",
     "build": "npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
