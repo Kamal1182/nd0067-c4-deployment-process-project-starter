@@ -44,8 +44,6 @@ jobs:
       - run:
           name: API Build
           command: |
-            echo "PWD" 
-            echo $(PWD)
             npm run api:build
   # deploy step will run only after manual approval
   deploy:
@@ -62,6 +60,8 @@ jobs:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: |
+            echo "PWD" 
+            echo $(PWD)
             npm run deploy
             
 workflows:

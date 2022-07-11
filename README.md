@@ -43,6 +43,8 @@ Provision the necessary AWS services needed for running the application:
 
    ![EB environment](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/env-3.jpg?raw=true)
 
+   API from browser: 
+
    ![backend_running_from_eb](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/backend_running_from_eb.jpg?raw=true)
 
 
