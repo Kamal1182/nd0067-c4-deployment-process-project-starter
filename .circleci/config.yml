@@ -47,6 +47,7 @@ jobs:
           name: API Build
           command: |
             npm run api:build
+            echo "ls"
             echo $(ls)
   # deploy step will run only after manual approval
   deploy:
