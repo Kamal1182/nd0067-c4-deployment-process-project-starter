@@ -12,10 +12,12 @@
     "dev": "npx ts-node-dev --respawn --transpile-only ./src/server.ts",
     "prod": "npx tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
-    "ebsetup": "eb init --platform 'Node.js 16 running on 64bit Amazon Linux 2' --region us-east-1 udagram",
-    "deploy": "npm run ebsetup && eb use Udagram && cp -R .elasticbeanstalk www/.elasticbeanstalk && eb deploy Udagram",
-    "build": "npm run clean && npx tsc && cp -rf src/config www/config && cp -R .elasticbeanstalk www/.elasticbeanstalk && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ebsetup": "eb init --region us-east-1 Udagram --platform node.js",
+    "deploy-cli": "npm run ebsetup && eb use Udagram && eb deploy Udagram",
+    "deploy-ci": "chmod +x bin/deploy.sh && bin/deploy.sh",
+    "build": "npm install . && npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "set:env": "eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME POSTGRES_PASSWORD=$POSTGRES_PASSWORD POSTGRES_HOST=$POSTGRES_HOST POSTGRES_PORT=$POSTGRES_PORT POSTGRES_DB=$POSTGRES_DB AWS_REGION=$AWS_REGION AWS_PROFILE=$AWS_PROFILE JWT_SECRET=$JWT_SECRET AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY"
   },
   "keywords": [],
   "author": "Gabriel Ruttner",
