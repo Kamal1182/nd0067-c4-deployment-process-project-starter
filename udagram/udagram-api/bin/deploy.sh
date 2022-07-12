@@ -1,12 +1,14 @@
-echo "mkdir www"
-mkdir www
+echo "ls"
+echo $(ls)
 echo "cd ./www"
 cd ./www
 echo "ls ./www"
 echo $(ls)
 echo "eb init $EB_APP --region us-east-1  --platform node.js"
 eb init $EB_APP --region us-east-1  --platform node.js
-echo "ls ./www"
+echo "cd ./www/.elasticbeanstalk"
+echo $(cd ./www/.elasticbeanstalk)
+echo "ls ./www/.elasticbeanstalk"
 echo $(ls)
 echo "$EB_ENV"
 eb use $EB_ENV
