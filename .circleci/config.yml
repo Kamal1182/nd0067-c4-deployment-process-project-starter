@@ -45,7 +45,7 @@ jobs:
           name: API Build
           command: |
             npm run api:build
-            set
+            echo $(ls)
   # deploy step will run only after manual approval
   deploy:
     docker:
