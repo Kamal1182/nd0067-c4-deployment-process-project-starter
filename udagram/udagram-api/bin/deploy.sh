@@ -1,7 +1,9 @@
 echo "ls"
 echo $(ls)
 echo "cd www"
-cd ./www
+cd www
+npm run build
+cd www
 echo "ls"
 echo $(ls)
 echo "eb init $EB_APP --region us-east-1  --platform node.js"
