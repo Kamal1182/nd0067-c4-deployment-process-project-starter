@@ -13,7 +13,7 @@
     "prod": "npx tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
     "ebsetup": "eb init --region us-east-1 Udagram --platform node.js",
-    "deploy-cli": "npm run build-7z && eb use Udagram && eb deploy Udagram --staged && npm run set:env",
+    "deploy-cli": "npm run build-7z && eb use Udagram && eb deploy Udagram && npm run set:env",
     "deploy-ci": "chmod +x bin/deploy.sh && bin/deploy.sh",
     "deploy": "eb use Udagram && eb deploy",
     "build": "npm run ebsetup && npm run clean && tsc && cp -rf src/config www/config && cp -R .elasticbeanstalk www/.elasticbeanstalk && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
