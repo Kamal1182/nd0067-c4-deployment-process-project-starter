@@ -2,8 +2,6 @@ branch-defaults:
   default:
     environment: Udagram
     group_suffix: null
-deploy:
-  artifact: udagram/Archive.zip
 environment-defaults:
   Udagarm:
     branch: master
