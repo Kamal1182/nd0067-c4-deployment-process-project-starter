@@ -2,6 +2,7 @@ echo "ls"
 echo $(ls)
 echo "cd www"
 cd www
+npm run install .
 npm run build
 cd www
 echo "ls"
