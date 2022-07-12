@@ -23,7 +23,7 @@ jobs:
             echo $(node --version)
             echo "NPM --version" 
             echo $(npm --version)
-            # npm run frontend:install
+            npm run frontend:install
       # TODO: Install dependencies in the the backend API          
       - run:
           name: Install API Dependencies
@@ -39,16 +39,12 @@ jobs:
       - run:
           name: Front-End Build
           command: |
-            # npm run frontend:build
+            npm run frontend:build
       # TODO: Build the backend API 
-      - eb/setup
-      # - aws-cli/setup     
       - run:
           name: API Build
           command: |
             npm run api:build
-            echo "ls"
-            echo $(ls)
   # deploy step will run only after manual approval
   deploy:
     docker:
@@ -64,6 +60,7 @@ jobs:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: |
+            # npm run api:deploy
             npm run api:deploy
             
 workflows:
