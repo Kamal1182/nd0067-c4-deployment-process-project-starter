@@ -1,4 +1,3 @@
-echo "ls"
 echo $(ls)
 echo "cd www"
 cd www
