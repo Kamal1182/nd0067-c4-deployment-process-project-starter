@@ -41,7 +41,7 @@ jobs:
           command: |
             # npm run frontend:build
       # TODO: Build the backend API 
-      # - eb/setup
+      - eb/setup
       # - aws-cli/setup     
       - run:
           name: API Build
