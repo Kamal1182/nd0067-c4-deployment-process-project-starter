@@ -12,7 +12,7 @@
     "dev": "npx ts-node-dev --respawn --transpile-only ./src/server.ts",
     "prod": "npx tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
-    "ebsetup": "eb init --region us-east-1 Udagram --platform node.js",
+    "ebsetup": "eb init udagram --region us-east-1 --platform node.js",
     "deploy-cli": "npm run build-7z && eb use Udagram && eb deploy Udagram && npm run set:env",
     "deploy-ci": "chmod +x bin/deploy.sh && bin/deploy.sh",
     "deploy": "eb use Udagram && eb deploy",
