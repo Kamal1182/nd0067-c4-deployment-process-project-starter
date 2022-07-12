@@ -1,6 +1,6 @@
 branch-defaults:
   default:
-    environment: Udagram
+    environment: aws-udagram-api-dev
     group_suffix: null
 environment-defaults:
   Udagarm:
@@ -9,8 +9,11 @@ environment-defaults:
   Udagram:
     branch: null
     repository: null
+  aws-udagram-api-dev:
+    branch: null
+    repository: null
 global:
-  application_name: udagram
+  application_name: aws-udagram-api
   branch: null
   default_ec2_keyname: null
   default_platform: Node.js
