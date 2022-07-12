@@ -56,11 +56,17 @@ jobs:
       - eb/setup
       - aws-cli/setup
       - checkout
+      # TODO: Build the frontend app
+      - run:
+          name: Front-End Build
+          command: |
+            echo "TODO: Build the frontend app"
+            npm run frontend:deploy
+      # TODO: Install, build, deploy backend
       - run:
           name: Deploy App
-          # TODO: Install, build, deploy in both apps
           command: |
-            # npm run api:deploy
+            # deploy backend
             npm run api:deploy
             
 workflows:
