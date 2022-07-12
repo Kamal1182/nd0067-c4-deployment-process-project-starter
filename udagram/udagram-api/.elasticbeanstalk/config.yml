@@ -1,0 +1,27 @@
+branch-defaults:
+  default:
+    environment: Udagram
+    group_suffix: null
+environment-defaults:
+  Udagarm:
+    branch: master
+    repository: https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter
+  Udagram:
+    branch: null
+    repository: null
+global:
+  application_name: Udagram
+  branch: null
+  default_ec2_keyname: null
+  default_platform: Node.js
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: null
+  sc: null
+  workspace_type: Application
+deploy:
+  artifact: ./www/Archive.zip
