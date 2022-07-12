@@ -1,14 +1,15 @@
 echo "ls"
 echo $(ls)
-echo "cd ./www"
+echo "cd www"
 cd ./www
-echo "ls ./www"
+echo "ls"
 echo $(ls)
 echo "eb init $EB_APP --region us-east-1  --platform node.js"
 # eb init $EB_APP --region us-east-1  --platform node.js
 echo "cd ./www/.elasticbeanstalk"
-echo $(cd ./www/.elasticbeanstalk)
-echo "ls ./www/.elasticbeanstalk"
+echo $(cd .elasticbeanstalk)
+echo "ls www/.elasticbeanstalk"
+echo $(ls)
 echo "cd ./www/udagram"
 echo $(cd ./www/udagram)
 echo "ls ./www/udagram"
