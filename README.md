@@ -37,22 +37,26 @@ Provision the necessary AWS services needed for running the application:
 
    [https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter)
 
+1. The Relational Database Service RDS is shown bellow:
+
+   ![EB environment](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/RDS.JPG?raw=true)
+
 2. The API elasticbeans EB endpoint is:
 
    [http://udagram-api-env.eba-cpwhkkdw.us-east-1.elasticbeanstalk.com](http://udagram-api-env.eba-cpwhkkdw.us-east-1.elasticbeanstalk.com)
 
-   ![EB environment](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/env-3.jpg?raw=true)
+   ![EB environment](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/env-3.jpg?raw=true)
 
    API from browser: 
 
-   ![backend_running_from_eb](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/backend_running_from_eb.jpg?raw=true)
+   ![backend_running_from_eb](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/backend_running_from_eb.jpg?raw=true)
 
 
 3. The front-end web site s3 bucket is: 
 
    [http://udagram-frontend-ui.s3-website-us-east-1.amazonaws.com](http://udagram-frontend-ui.s3-website-us-east-1.amazonaws.com).
 
-   ![s3udagrm-ui](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/s3udagrm-ui.jpg?raw=true)
+   ![s3udagrm-ui](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/s3-buckets.jpg?raw=true)
 
 4. The figure below shows AWS Architecture Diagram
 
@@ -60,4 +64,6 @@ Provision the necessary AWS services needed for running the application:
 
 4. The figure below shows Circle Ci deploy and environment variables
 
-   ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/circleci.jpg?raw=true)
+   ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/CircleCi-ENV.JPG?raw=true)
+
+![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/CircleCi-Scuccess.JPG?raw=true)
