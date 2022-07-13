@@ -18,27 +18,23 @@ This application is provided to you as an alternative starter project if you do 
 
 ### Installation & running app
 
-use scripts :-
-"frontend:install": "cd udagram/udagram-frontend && npm install -f",
-"frontend:start": "cd udagram/udagram-frontend && npm run start",
-"frontend:build": "cd udagram/udagram-frontend && npm run build",
-"frontend:test": "cd udagram/udagram-frontend && npm run test",
-"frontend:e2e": "cd udagram/udagram-frontend && npm run e2e",
-"frontend:lint": "cd udagram/udagram-frontend && npm run lint",
-"frontend:deploy": "cd udagram/udagram-frontend && npm run deploy",
-"frontend:deploy_local": "cd udagram/udagram-frontend && npm run deploy_local",
+- **installing frontend:** `frontend:install: cd udagram/udagram-frontend && npm install -f`
+- **start frontend:** `frontend:start: cd udagram/udagram-frontend && npm run start`
+- **building frontend:** `frontend:build: cd udagram/udagram-frontend && npm run build`
+- **testing frontend:** `frontend:test: cd udagram/udagram-frontend && npm run test`
+- **end to end testing:** `frontend:e2e: cd udagram/udagram-frontend && npm run e2e`
+- **code linting:** `frontend:lint:** cd udagram/udagram-frontend && npm run lint`
+- **deploy frontend:** `frontend:deploy: cd udagram/udagram-frontend && npm run deploy`
 
-"api:install": "cd udagram/udagram-api && npm install .",
-"api:build": "cd udagram/udagram-api && npm run build",
-"api:start": "cd udagram/udagram-api && npm run start",
-"api:deploy": "cd udagram/udagram-api && npm run deploy",
-"api:deploy_local": "cd udagram/udagram-api && npm run deploy_local",
-
-"deploy": "npm run api:deploy && npm run frontend:deploy"
+- **installing backend:** `api:install: cd udagram/udagram-api && npm install .`
+- **buildging backend:** `api:build: cd udagram/udagram-api && npm run build`
+- **starting backend:** `api:start: cd udagram/udagram-api && npm run start`
+- **deploying backend:** `api:deploy: cd udagram/udagram-api && npm run deploy-ci`
+- **deploy both frontend and backenddeploy:** `npm run api:deploy && npm run frontend:deploy`
 
 ## Note
-        frontend:deploy_local , api:deploy_local for windows machines
-        while frontend:deploy , api:deploy for Circleci
+        `frontend:deploy_local , api:deploy_local for windows machines`
+        `while frontend:deploy , api:deploy for Circleci`
 
 ## Testing
 
