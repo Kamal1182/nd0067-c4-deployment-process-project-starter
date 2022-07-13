@@ -58,4 +58,6 @@ Provision the necessary AWS services needed for running the application:
 
    ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/ArchitectureDiagram.jpg?raw=true)
 
-   last
+4. The figure below shows Circle Ci deploy
+
+   ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/circleci.jpg?raw=true)
