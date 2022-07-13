@@ -39,7 +39,7 @@ Provision the necessary AWS services needed for running the application:
 
 2. The API elasticbeans EB endpoint is:
 
-   [http://udagram.eba-sysg7cdm.us-east-1.elasticbeanstalk.com/](http://udagram.eba-sysg7cdm.us-east-1.elasticbeanstalk.com/)
+   [http://udagram-api-env.eba-cpwhkkdw.us-east-1.elasticbeanstalk.com](http://udagram-api-env.eba-cpwhkkdw.us-east-1.elasticbeanstalk.com)
 
    ![EB environment](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/env-3.jpg?raw=true)
 
@@ -50,7 +50,7 @@ Provision the necessary AWS services needed for running the application:
 
 3. The front-end s3 bucket is: 
 
-   [http://udagram-ui.s3-website-us-east-1.amazonaws.com](http://udagram-ui.s3-website-us-east-1.amazonaws.com).
+   [http://udagram-frontend-ui.s3-website-us-east-1.amazonaws.com](http://udagram-frontend-ui.s3-website-us-east-1.amazonaws.com).
 
    ![s3udagrm-ui](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/s3udagrm-ui.jpg?raw=true)
 

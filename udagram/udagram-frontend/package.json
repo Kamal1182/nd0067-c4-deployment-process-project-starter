@@ -8,6 +8,7 @@
     "start": "ng serve",
     "build": "ng build --prod",
     "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
+    "deploy-cli": "npm install -f && npm run build && sh \"bin/deploy.sh\" && \"bin/deploy.sh\"",
     "test": "ng test --watch=false",
     "lint": "ng lint",
     "e2e": "ng e2e"
