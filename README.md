@@ -14,7 +14,7 @@ Once I uploaded the files for both the front and backend, I moved to interact wi
 
 The project pushed to GitHub and connected to CircleCI account. Deploying steps in .circleci/config.yml file used to deploy the app, and CircleCI did the CI/CD
 
-### Dependencies
+## Dependencies
 
 ```
 - Node v16.0.0 (LTS).
@@ -29,30 +29,29 @@ The project pushed to GitHub and connected to CircleCI account. Deploying steps 
 
 ```
 
-### Results
+## Results
 
 Provision the necessary AWS services needed for running the application:
 
-1. The GitHub repository is:
+1. **The GitHub repository is:**
 
    [https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter)
 
-1. The Relational Database Service RDS is shown bellow:
+2. **The Relational Database Service RDS is shown bellow:**
 
    ![EB environment](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/RDS.JPG?raw=true)
 
-2. The API elasticbeans EB endpoint is:
+3. **The API elasticbeans EB endpoint is:**
 
    [http://udagram-api-env.eba-cpwhkkdw.us-east-1.elasticbeanstalk.com](http://udagram-api-env.eba-cpwhkkdw.us-east-1.elasticbeanstalk.com)
 
    ![EB environment](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/env-3.jpg?raw=true)
 
-   API from browser: 
+   **API from browser:**
 
    ![backend_running_from_eb](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/backend_running_from_eb.jpg?raw=true)
 
-
-3. The front-end web site s3 bucket is: 
+4. **The front-end web site s3 bucket is:** 
 
    [http://udagram-frontend-ui.s3-website-us-east-1.amazonaws.com](http://udagram-frontend-ui.s3-website-us-east-1.amazonaws.com).
 
@@ -60,12 +59,12 @@ Provision the necessary AWS services needed for running the application:
 
    ![s3udagrm-ui](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/frontend-browser-running.JPG?raw=true)
 
-4. The figure below shows Circle Ci deploy and environment variables
+5. **The figure below shows Circle Ci deploy and environment variables**
 
    ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/CircleCi-ENV.JPG?raw=true)
 
 ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/CircleCi-Scuccess.JPG?raw=true)
 
-4. The figure below shows AWS Architecture Diagram
+6. **The figure below shows AWS Architecture Diagram**
 
    ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/ArchitectureDiagram.jpg?raw=true)
