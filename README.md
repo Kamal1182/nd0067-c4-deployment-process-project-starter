@@ -58,12 +58,14 @@ Provision the necessary AWS services needed for running the application:
 
    ![s3udagrm-ui](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/s3-buckets.jpg?raw=true)
 
-4. The figure below shows AWS Architecture Diagram
-
-   ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/ArchitectureDiagram.jpg?raw=true)
+   ![s3udagrm-ui](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/frontend-browser-running.JPG?raw=true)
 
 4. The figure below shows Circle Ci deploy and environment variables
 
    ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/CircleCi-ENV.JPG?raw=true)
 
 ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/CircleCi-Scuccess.JPG?raw=true)
+
+4. The figure below shows AWS Architecture Diagram
+
+   ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/ArchitectureDiagram.jpg?raw=true)
