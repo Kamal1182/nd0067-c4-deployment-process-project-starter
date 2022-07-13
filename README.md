@@ -48,7 +48,7 @@ Provision the necessary AWS services needed for running the application:
    ![backend_running_from_eb](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/backend_running_from_eb.jpg?raw=true)
 
 
-3. The front-end s3 bucket is: 
+3. The front-end web site s3 bucket is: 
 
    [http://udagram-frontend-ui.s3-website-us-east-1.amazonaws.com](http://udagram-frontend-ui.s3-website-us-east-1.amazonaws.com).
 
@@ -58,6 +58,6 @@ Provision the necessary AWS services needed for running the application:
 
    ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/ArchitectureDiagram.jpg?raw=true)
 
-4. The figure below shows Circle Ci deploy
+4. The figure below shows Circle Ci deploy and environment variables
 
    ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/circleci.jpg?raw=true)
