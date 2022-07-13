@@ -56,7 +56,7 @@ Provision the necessary AWS services needed for running the application:
 
 4. The figure below shows AWS Architecture Diagram
 
-   ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/ArchitectureDiagram.jpg?raw=true)
+   ![Architecture Diagram](https://github.com/Kamal1182/nd0067-c4-deployment-process-project-starter/blob/master/screenShoots/ArchitectureDiagram.jpg?raw=true)
 
 4. The figure below shows Circle Ci deploy and environment variables
 
